@@ -43,3 +43,39 @@ covert into boolean using Boolean() method
 "Abhiraj" => true 
 */
 
+
+//********************************  Operations  **************************************************** */
+
+let value = 3 
+let negValue = -value ;
+console.log ( negValue ) ;
+
+console.log ( 2+2 ) ;   // addition
+console.log ( 2-2 ) ;   // subtraction
+console.log ( 2*3 ) ;   // multiply
+console.log ( 2**3 ) ;  // power 2 to the power 3
+console.log ( 5/2 ) ;   // division
+console.log ( 3%2 ) ;   // it gives remainder 
+
+let str1 = "hello " ;
+let str2 = "abhiraj" ;
+let str3 = str1 + str2 ;    // string concatination
+console.log( str3 ) ;
+
+console.log( "1" + 2 )    // 12
+console.log( 1 + "2" )      // 12
+console.log( "1" + 2 + 2 )      // 122
+console.log( 1 + 2 + "2" )      // 32
+
+console.log ( true ) ;      // true 
+console.log ( +true )       // 1 
+// console.log ( true+ )       // Error
+console.log( +"" )      // 0
+
+let num1 , num2, num3 
+num1 = num2 = num3 = 2 + 2 
+console.table ( [num1,num2,num3] ) ;
+
+let gameCounter = 100 
+gameCounter++       // 101 
+++gameCounter       // 102 
